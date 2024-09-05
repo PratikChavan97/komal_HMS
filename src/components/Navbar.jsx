@@ -40,8 +40,8 @@ function Navbar() {
       </header>
       <section>
         <div className="container">
-          <div className="content">
-            <h2>Home away From Home</h2>
+          <div className="content text-light my-4 mx-3">
+            <h2 className="text-light my-1">Home, away From Home</h2>
             <h4>Friendly staff, tidy rooms and tasty food!</h4>
           </div>
         </div>
