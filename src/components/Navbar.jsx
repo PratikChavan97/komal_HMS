@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 
 function Navbar() {
@@ -6,6 +7,7 @@ function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <>
       <header>
@@ -31,7 +33,7 @@ function Navbar() {
                 <a href="./contact">Contact</a>
               </li>
             </ul>
-            <div className="icon" onClick={toogleMenu}></div>
+            <div className="icon" onClick={toggleMenu}></div>
             <FaBars />
           </nav>
         </div>
